@@ -1,5 +1,4 @@
 // var webpack = require("webpack")
-var nodeExternals = require('webpack-node-externals')
 var path = require('path')
 
 module.exports = {
@@ -19,9 +18,6 @@ module.exports = {
     //    cookie: path.join(__dirname,"./static/js/jquery.cookie.js"),
     }
   },
-  externals: [
-    nodeExternals()
-  ],
   module: {
     rules: [{
       test: /\.js$/,
