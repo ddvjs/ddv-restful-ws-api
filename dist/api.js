@@ -3292,8 +3292,9 @@ Object.assign(DdvRequestWs.prototype, __webpack_require__(17));
 Object.assign(DdvRequestWs, {
   // 请求
   request: function request() {
+    var agrs = arguments;
     return DdvRequestWs.getSingleton().then(function (ws) {
-      return ws.request.apply(ws, arguments);
+      return ws.request.apply(ws, agrs);
     });
   },
   // 返回一个单例
