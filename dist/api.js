@@ -1356,7 +1356,7 @@ ddvRestFulApi['default'] = ddvRestFulApi;
 
 Object.assign(ddvRestFulApi, {
   // 默认安装一下方法
-  utilInitKey: 'api get post put del delete data addListener on once removeListener removeAllListeners emit listeners listenerCount setMaxListeners'.split(' '),
+  utilInitKey: 'api get post put del delete data'.split(' '),
   // 安装模块
   util: function apiUtil(util) {
     // 扩展请求接口
@@ -3292,10 +3292,8 @@ Object.assign(DdvRequestWs.prototype, __webpack_require__(17));
 Object.assign(DdvRequestWs, {
   // 请求
   request: function request() {
-    var _arguments = arguments;
-
     return DdvRequestWs.getSingleton().then(function (ws) {
-      return ws.request.apply(ws, _arguments);
+      return ws.request.apply(ws, arguments);
     });
   },
   // 返回一个单例
