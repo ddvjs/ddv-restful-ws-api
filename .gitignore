@@ -43,3 +43,5 @@ jspm_packages
 .git
 
 dist
+
+yarn.lock
