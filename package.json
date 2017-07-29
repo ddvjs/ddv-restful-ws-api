@@ -2,7 +2,7 @@
   "name": "ddv-restful-ws-api",
   "version": "0.0.10",
   "description": "ddv-restful-ws-api",
-  "main": "./lib/api.js",
+  "main": "./lib/apiExtend.js",
   "scripts": {
     "lint": "eslint --ext .js lib --ignore-pattern dist",
     "dist": "npm run lint&&webpack",
