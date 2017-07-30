@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "ddv-rowraw": "~0.0.5",
-    "ddv-restful-api": "~0.1.2",
+    "ddv-restful-api": "~0.1.4",
     "ws": "~3.1.0"
   }
 }
