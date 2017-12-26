@@ -49,8 +49,8 @@
     "webpack-node-externals": "^1.5.4"
   },
   "dependencies": {
-    "ddv-rowraw": "~0.0.5",
-    "ddv-restful-api": "~0.1.4",
+    "ddv-rowraw": "~0.0.7",
+    "ddv-restful-api": "~0.1.10",
     "ws": "~3.1.0"
   }
 }
