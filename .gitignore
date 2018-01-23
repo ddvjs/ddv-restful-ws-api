@@ -45,3 +45,5 @@ jspm_packages
 dist
 
 yarn.lock
+
+package-lock.json
