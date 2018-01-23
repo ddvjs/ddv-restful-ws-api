@@ -36,10 +36,10 @@
   },
   "homepage": "https://github.com/ddvjs/ddv-restful-ws-api#readme",
   "devDependencies": {
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "babel-eslint": "^7.0.0",
-    "babel-preset-es2015": "^6.22.0",
+    "babel-core": "~6.26.0",
+    "babel-loader": "~7.1.2",
+    "babel-eslint": "~8.2.1",
+    "babel-preset-es2015": "~6.24.1",
     "eslint": "^3.10.2",
     "eslint-plugin-html": "^1.3.0",
     "eslint-config-standard": "^6.2.1",
@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "ddv-rowraw": "~0.0.7",
-    "ddv-restful-api": "~0.1.10",
+    "ddv-restful-api": "~0.1.11",
     "ws": "~3.1.0"
   }
 }
