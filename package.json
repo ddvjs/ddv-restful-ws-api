@@ -1,6 +1,6 @@
 {
   "name": "ddv-restful-ws-api",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "ddv-restful-ws-api",
   "main": "./lib/apiExtend.js",
   "scripts": {
